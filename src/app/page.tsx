@@ -9,6 +9,7 @@ import RightGallery from '@/components/RightGallery';
 import LeftGallery from '@/components/LeftGallery';
 import WhatWeHaveDone from '@/components/WhatWeHaveDone';
 import { whatWeDid } from '@/constants';
+import { ExperienceLuxury } from '@/components';
 
 export default function Home() {
   return (
@@ -26,9 +27,7 @@ export default function Home() {
 
       <WhatWeHaveDone  />
 
-      <Experi
- 
-
+      <ExperienceLuxury />
    </div>
   )
 }
