@@ -4,7 +4,7 @@ import { css } from '../../styled-system/css'
 const CustomButton = ({title}: CustomButtonProps) => {
   return (
     <div>
-        <button className={css({bg:'teal.600', color:'white', py:"16px", px: "24px"})}> {title}</button>
+        <button className={css({bg:'#078080', color:'white', h:'56px', w: '100%', px:'16px'})}> {title}</button>
     </div>
   )
 }

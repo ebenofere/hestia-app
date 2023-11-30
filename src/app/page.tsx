@@ -20,9 +20,9 @@ export default function Home() {
       <hr className={css({border:'1px solid #e5e1d6'})} />
 
       <LeftGallery title="architecture" heading="What we do" image="https://res.cloudinary.com/ebenofere/image/upload/v1700981130/Hestia/Rectangle_594_sglkvs.png" />
-      <RightGallery title="residential" />
+      <RightGallery title="residential" image="https://res.cloudinary.com/ebenofere/image/upload/v1700982054/Hestia/Rectangle_594_1_u11rsp.png" />
       <LeftGallery title="commercial" image="https://res.cloudinary.com/ebenofere/image/upload/v1700987096/Hestia/Rectangle_594_hrjgwf.png" />
-      <RightGallery title="religious" />
+      <RightGallery title="religious" image="https://res.cloudinary.com/ebenofere/image/upload/v1700982054/Hestia/Rectangle_594_1_u11rsp.png" />
       <LeftGallery title="storefront" image="https://res.cloudinary.com/ebenofere/image/upload/v1700987134/Hestia/Rectangle_594_1_hoegdq.png" />
 
       <WhatWeHaveDone  />
