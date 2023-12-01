@@ -1,5 +1,7 @@
+import { Button } from '@/custom/button'
 import { css } from '../../styled-system/css'
-import CustomButton from './CustomButton'
+import { Box, HStack } from '../../styled-system/jsx'
+import { FaArrowRight } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -10,7 +12,16 @@ const Navbar = () => {
             <div>Process</div>
             <div>Blog</div>
             <div>Portfolio</div>
-            <CustomButton title="Book a Consultation" />
+            <div>
+                <HStack>
+                    <Box w="100%">
+                        <Button bg="#078080" color="white" className={css({display: 'flex', alignItems:'center', justifyContent:'center', gap:'2', px:"5"})}>
+                            Learn More 
+                            <FaArrowRight />
+                        </Button>
+                    </Box>
+                </HStack>
+              </div>
         </div>
     </div>
   )

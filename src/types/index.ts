@@ -1,8 +1,3 @@
-export interface CustomButtonProps {
-    title: string;
-    image: string;
-}
-
 export interface RightGalleryProps {
     title: string;
     image: string;

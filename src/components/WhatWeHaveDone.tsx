@@ -1,7 +1,6 @@
 import { Button } from '@/custom/button';
 import { css } from '../../styled-system/css'
 import { Box, HStack } from '../../styled-system/jsx';
-import CustomButton from './CustomButton'
 import { whatWeDid } from '@/constants';
 import { FaArrowRight } from 'react-icons/fa';
 
@@ -15,8 +14,8 @@ const WhatWeHaveDone = () => {
         </div>
 
         {whatWeDid.map((item) => (
-            <div className={css({display: "flex", alignItems:"top", justifyContent:"center", gap:"5em"})} key={item.id}>
-                <div>
+            <div className={css({display: "flex", alignItems:"top", justifyContent:"space-between", gap:"32px", w:'100%'})} key={item.id}>
+                <div className={css({})}>
                     <div className={css({width: "558px", height:"536px"})}>
                         <img src={item.image} alt={item.title} key={item.id} />
                     </div>
@@ -37,8 +36,8 @@ const WhatWeHaveDone = () => {
                         </HStack>
                     </div>
                 </div>
-                <div>
-                    <div className={css({display: "flex", alignItems:"center", justifyContent:"center", gap:"16px"})}>
+                <div className={css({})}>
+                    <div className={css({display: "flex", alignItems:"center", justifyContent:"center", gap:"23px", w:'269px', h:'250px'})}>
                         {item.links.map((link) => (
                             <img src={link.url} alt={link.title} key={link.id} />
                         ))}

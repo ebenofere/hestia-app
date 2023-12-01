@@ -1,4 +1,3 @@
-import { CustomButton } from '.'
 import { css } from '../../styled-system/css'
 import { sponsorSection } from '@/constants'
 import { FaArrowRight } from 'react-icons/fa';
@@ -15,8 +14,8 @@ const ExperienceLuxury = () => {
             </p>
             <div>
               <HStack>
-                  <Box w="25%">
-                      <Button bg="#078080" color="white" className={css({display: 'flex', alignItems:'center', justifyContent:'center', gap:'2'})}>
+                  <Box w="100%">
+                      <Button bg="#078080" color="white" className={css({display: 'flex', alignItems:'center', justifyContent:'center', gap:'2', px:'5'})}>
                         Book a Consultation
                       </Button>
                   </Box>

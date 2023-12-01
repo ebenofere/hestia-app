@@ -1,6 +1,5 @@
 import { RightGalleryProps } from '@/types'
 import { css } from '../../styled-system/css'
-import CustomButton from './CustomButton'
 import { Box, HStack } from '../../styled-system/jsx'
 import { Button } from '@/custom/button'
 import { FaArrowRight } from 'react-icons/fa';

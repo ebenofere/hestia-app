@@ -1,4 +1,3 @@
-import CustomButton from "./CustomButton";
 import ExperienceLuxury from "./ExperienceLuxury";
 import Footer from "./Footer";
 import Hero from "./Hero";
@@ -9,7 +8,6 @@ import WhatWeHaveDone from "./WhatWeHaveDone";
 import WhoWeAre from "./WhoWeAre";
 
 export {
-    CustomButton, 
     ExperienceLuxury,
     Footer,
     Navbar,
